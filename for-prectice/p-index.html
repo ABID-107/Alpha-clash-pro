@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Anton&family=Antonio:wght@100..700&display=swap');
+
+        .font-anton {
+            font-family: "Anton", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+    </style>
+</head>
+
+<body>
+    <main id="intro" class="bg-[#020617] min-h-screen">
+        <section>
+            <div class="flex flex-col justify-center items-center min-h-screen">
+                <p class="text-2xl text-white p-20">"If you are smart, then this game is for you. The rule of the game
+                    is to
+                    press a
+                    letter that will
+                    take you to your next destination. If you make a mistake, you will have to start the game over
+                    again."</p>
+                <button onclick="tab1()" class="btn bg-white text-black">start</button>
+
+            </div>
+        </section>
+    </main>
+    <main class="bg-[#4c1d95] min-h-screen">
+        <section id="disaster" class="hidden">
+            <div class="flex justify-center items-center min-h-screen">
+                <p class="font-anton text-9xl text-[#dc2626]">DISAS<span onclick="tab2()">T</span>ER</p>
+
+            </div>
+        </section>
+        <section id="flop" class="hidden">
+            <div class="flex justify-center items-center min-h-screen">
+                <p class="font-anton text-9xl text-[#fbbf24]">FL<span onclick="tab3()">O</span>P</p>
+
+            </div>
+        </section>
+        <section id="blokebaster" class="hidden">
+            <div class="flex justify-center items-center min-h-screen">
+                <p class="font-anton text-9xl text-[#16a34a]">BLOKEBASTER</p>
+
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+    <script src="/HCJ/p-scripte.js"></script>
+</body>
+
+</html>
